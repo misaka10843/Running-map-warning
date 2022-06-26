@@ -1,0 +1,13 @@
+name: RunMapTips
+version: 1.1
+main: runmap.tips.ChunksExplorerLimiter
+prefix: RunMapTips
+authors: [misaka10843]
+description: Don't RunMap!
+
+commands:
+  rmt:
+    description: main command
+    permission: RunMapTips.use
+    #没有权限的提示消息
+    permission-message: 你不能执行它.
